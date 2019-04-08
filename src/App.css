@@ -1,0 +1,41 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+#root {
+  text-align: center;
+}
+
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(220deg, #EC5252 -40%, #6E1A52 60%);
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline-block;
+  
+}
+
+.navbar li a {
+  font-weight: bold;
+  color:white;
+  text-decoration: none;
+  padding: 20px 15px;
+  display: block;
+}
+
+.navbar li a.active {
+  background: #451134;
+}
+
+.App {
+  text-align: center;
+}
+
+
